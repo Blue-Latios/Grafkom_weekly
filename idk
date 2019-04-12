@@ -1,0 +1,17 @@
+[
+  {
+    "type":"if",
+    "conditionType":"flag",
+    "name":"TEST_RUN",
+    "falseActions": [],
+    "trueActions": [
+      {
+        "type":"return"
+      }
+    ]
+  },
+  {
+    "type":"fade-out",
+    "duration" : 1
+  }
+]
